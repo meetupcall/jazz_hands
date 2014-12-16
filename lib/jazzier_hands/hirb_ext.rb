@@ -7,12 +7,12 @@ class << Hirb::View
 
   def enable_output_method
     @output_method = true
-    JazzHands._hirb_output = true
+    JazzierHands._hirb_output = true
     enable_output_method_existing
   end
 
   def disable_output_method
-    JazzHands._hirb_output = false
+    JazzierHands._hirb_output = false
     disable_output_method_existing
   end
 end

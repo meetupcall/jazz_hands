@@ -1,16 +1,16 @@
 # -*- encoding: utf-8 -*-
 
-require File.expand_path('../lib/jazz_hands/version', __FILE__)
+require File.expand_path('../lib/jazzier_hands/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.name          = 'jazz_hands'
-  gem.version       = JazzHands::VERSION
+  gem.name          = 'jazzier_hands'
+  gem.version       = JazzierHands::VERSION
   gem.author        = 'Gopal Patel'
   gem.email         = 'nixme@stillhope.com'
   gem.license       = 'MIT'
-  gem.homepage      = 'https://github.com/nixme/jazz_hands'
+  gem.homepage      = 'https://bitbucket.org/meetupcall/jazzier_hands/overview'
   gem.summary       = 'Exercise those fingers. Pry-based enhancements for the default Rails console.'
-  gem.description   = "Spending hours in the rails console? Spruce it up and show off those hard-working hands! jazz_hands replaces IRB with Pry, improves output through awesome_print, and has some other goodies up its sleeves."
+  gem.description   = "Spending hours in the rails console? Spruce it up and show off those hard-working hands! jazzier_hands replaces IRB with Pry, improves output through awesome_print, and has some other goodies up its sleeves."
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
