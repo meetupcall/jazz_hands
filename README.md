@@ -1,6 +1,8 @@
 Jazz Hands
 ==========
 
+Our Meetupcall branch of jazz_hands which is basically unmaintained now.
+
 Spending hours in the rails console? Spruce it up and show off those
 hard-working hands!
 
